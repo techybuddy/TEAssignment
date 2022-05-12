@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		  <title>jQuery Website</title>
+		  <!-- Include meta tag to ensure proper rendering and touch zooming -->
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <!-- Include jQuery Mobile stylesheets -->
+		  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		  <!-- Include the jQuery library -->
+		  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		  <!-- Include the jQuery Mobile library -->
+		  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	</head>
+	<body style='text-align: center;'>
+		<div data-role='page' id='home'>
+			<div data-role='header' data-position='fixed'>
+				<p>Welcome to The Nutrition Source Website</p>
+				<a href='#' data-icon='back'data-rel='back' data-theme='b'></a>
+				<div data-role='navbar'>
+					<ul>
+						<li><a href='#home' class='ui-btn ui-btn-active ui-state-persist' data-icon='home'>Home</a></li>
+						<li><a href='#foodFeatures' data-icon='info' data-theme='b'>Info</a></li>
+						<li><a href='#aboutus' data-icon='info'>About Us</a></li>
+					</ul>
+				</div>
+			</div>
+			<div data-role='main' class='ui-content' style='text-align: left;'>
+				<div class='ui-grid-b'>
+					<div class='ui-block-a'>
+						<img src='./recipie.jpg' style='height: 200px; width: 300px;'>
+						<h3>Recipies</h3>
+						<p>Healthy eating begins in the kitchen, whether at home or another venue.</p>
+					</div>
+					<div class='ui-block-b'>
+						<img src='./carb.jpg' style='height: 200px; width: 300px;'>
+						<h3>Carbohydrates</h3>
+						<p>The type of carbohydrate you eat is more important than the amount.</p>
+					</div>
+					<div class='ui-block-c'>
+						<img src='./guide.jpg' style='height: 200px; width: 300px;'>
+						<h3>Health Guide</h3>
+						<p>A downloadable resource with tips and strategies for healthy eating and living.</p>
+					</div>
+					<div class='ui-block-a'>
+						<img src='./diet.jpg' style='height: 200px; width: 300px;'>
+						<h3>Diet Plan</h3>
+						<p>A look at some popular diets—and the research behind them.</p>
+					</div>
+					<div class='ui-block-b'>
+						<img src='./diseases.jpg' style='height: 200px; width: 300px;'>
+						<h3>Disease Prevention</h3>
+						<p>Type 2 diabetes and heart disease is striking people at younger ages – but prevention is in our power.</p>
+					</div>
+					<div class='ui-block-c'>
+						<img src='./sustain.jpg' style='height: 200px; width: 300px;'>
+						<h3>Sustainability</h3>
+						<p>Explore this multifaceted issue, in which food production and our diets play a major role.</p>
+					</div>
+					
+				</div>
+			</div>
+			<div data-role='footer' data-position='fixed'>
+				<h3>Contact Us</h3>
+				<p>Mail: aniketkhandave5143@gmail.com</p>
+				<p>Contact No. 7666086182</p>
+			</div>
+		</div>
+		<div data-role='page' id='foodFeatures'>
+			<div data-role='header' data-position='fixed'>
+				<p>Welcome to The Nutrition Source Website</p>
+				<a href='#' data-icon='back'data-rel='back' data-theme='b'></a>
+				<div data-role='navbar'>
+					<ul>
+						<li><a href='#home' data-icon='home'>Home</a></li>
+						<li><a href='#foodFeatures' class='ui-btn ui-btn-active ui-state-persist' data-icon='info' data-theme='b'>Info</a></li>
+						<li><a href='#aboutus' data-icon='info'>About Us</a></li>
+					</ul>
+				</div>
+			</div>
+			<div data-role='main' class='ui-content' style='text-align: left;'>
+			<p>Did you know that references to yogurt and health date all the way back to 6000 BCE? Or that before its dramatic rise in popularity, kale was more often used as a garnish?</p>
+			<p>What makes food so enjoyable—beyond the flavors, textures, and variety it brings to everyday life—is that each one has some unique story behind it; from where it was first cultivated, to how it’s been used and adapted for changing tastes and preferences from one decade to the next. Of course, there’s also the relationship between food and health, though we know it’s more important to focus on an overall healthy eating pattern, rather than a few magic-bullet “superfoods.”</p>
+			<p>Indeed, these food features aren’t about promoting any individual foods, but an opportunity to explore a bit of the history and research behind them, along with some practical tips for when you’re shopping and cooking. Take a look!</p>
+			
+			<a href='#pop1' data-rel='popup' data-position-to='window' data-transition='flow' class='ui-btn ui-btn-inline ui-btn-b'>Apple</a>
+			<a href='#pop2' data-rel='popup' data-position-to='window' data-transition='pop' class='ui-btn ui-btn-inline ui-btn-a'>Almods</a>
+			<a href='#pop3' data-rel='popup' data-position-to='window' data-transition='slideup' class='ui-btn ui-btn-inline ui-btn-b'>Avocados</a>
+			<a href='#pop4' data-rel='popup' data-position-to='window' data-transition='slidedown' class='ui-btn ui-btn-inline ui-btn-a'>Bananas</a>
+			
+			<div data-role='popup' id='pop1' class='ui-content' style='width: 75%; margin: auto'>
+				<p>Fiber, insoluble and soluble</p>
+				<p>Phytochemicals (quercetin, catechin, chlorogenic acid, anthocyanin)</p>
+				<p>Vitamin c</p>
+			</div>
+			<div data-role='popup' id='pop2' class='ui-content' style='width: 75%; margin: auto'>
+				<p>Vitamin E</p>
+				<p>Fiber</p>
+				<p>Biotin</p>
+				<p>Minerals: Calcium, Phosphorus, Magnesium</p>
+				<p>Trace minerals: Copper</p>
+				<p>Phytonutrients, specifically flavonoids, plant sterols, phenolic acids</p>
+			</div>
+			<div data-role='popup' id='pop3' class='ui-content' style='width: 75%; margin: auto'>
+				<p>Fiber (mostly insoluble but also soluble)</p>
+				<p>Vitamin C, E, K</p>
+				<p>Folate</p>
+				<p>Magnesium</p>
+			</div>
+			<div data-role='popup' id='pop4' class='ui-content' style='width: 75%; margin: auto'>
+				<p>VitaminB6</p>
+				<p>Fiber</p>
+				<p>Vitamin c</p>
+			</div>
+
+			</div>
+			<div data-role='footer' data-position='fixed'>
+				<h3>Contact Us</h3>
+				<p>Mail: aniketkhandave5143@gmail.com</p>
+				<p>Contact No. 7666086182</p>
+			</div>
+		</div>
+		<div data-role='page' id='aboutus'>
+			<div data-role='header' data-position='fixed'>
+				<p>Welcome to The Nutrition Source Website</p>
+				<a href='#' data-icon='back'data-rel='back' data-theme='b'></a>
+				<div data-role='navbar'>
+					<ul>
+						<li><a href='#home' data-icon='home'>Home</a></li>
+						<li><a href='#foodFeatures' data-icon='info' data-theme='b'>Info</a></li>
+						<li><a href='#aboutus' class='ui-btn ui-btn-active ui-state-persist' data-icon='info'>About Us</a></li>
+					</ul>
+				</div>
+			</div>
+			<div data-role='main' class='ui-content' style='text-align: left;'>
+				<h3>About</h3>
+				<p>The Nutrition Source is a leading authority on food and nutrition knowledge, providing science-based guidance for healthy living. Based at the Harvard T. H. Chan School of Public Health’s Department of Nutrition, The Nutrition Source offers comprehensive nutrition information through timely articles and FAQ’s, while recipes and tools, including The Healthy Eating Plate, facilitate the translation of food and nutrition knowledge into daily practice. With the media culture full of confusing nutrition misinformation, clinicians, health professionals, journalists, and the general public can rely and trust The Nutrition Source’s independent, clear, and unbiased content—free from industry influence or support.</p>
+				<p>Launched in 2001, The Nutrition Source accepts no advertising or commercial sponsorship, nor does it endorse any particular products. Expert faculty from the Department of Nutrition and other invited experts review all content before it is posted on the site, and all content is re-reviewed regularly. This website is meant for educational purposes. The contents of this website are not intended to offer personal medical advice. You should seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition. Never disregard professional medical advice or delay in seeking it because of something you have read on this website.</p>
+				<br><br><ul data-role="listview">
+				  <li data-role="list-divider">Editorial Director:</li>
+				  <li>Lilian Cheung, Lecturer, Director of Health Promotion and Communication in the Department of Nutrition</li>
+				  <li data-role="list-divider">The Nutrition Source Editorial Team:</li>
+				  <li>Brett Otis</li>
+				  <li>Nancy Oliveira</li>
+				  <li data-role="list-divider">Former contributors and/or website staff:</li>
+				  <li>Sari Kalin</li>
+				  <li>Emily Phares</li>
+				  <li>Will Koh</li>
+				</ul>
+			</div>
+			<div data-role='footer' data-position='fixed'>
+				<h3>Contact Us</h3>
+				<p>Mail: aniketkhandave5143@gmail.com</p>
+				<p>Contact No. 7666086182</p>
+			</div>
+		</div>
+	</body>
+</html>
