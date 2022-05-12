@@ -1,0 +1,28 @@
+<div>
+<a href="/getdetails">Answer for the query</a>
+</div>
+<hr>
+
+<% if(details!=null) { %>
+<table>
+<tr>
+    <th>Name</th>
+    <th>Roll No</th>
+    <th>CC mks</th>
+    <th>AI mks </th>
+    <th>DS mks </th>
+    <th>WAD mks</th>
+</tr>
+<% details.forEach(function(item){ %>
+<tr>
+    <td><%= item.name%></td>
+    <td><%= item.rollno %></td>
+    <td><%= item.cc_mks%></td>
+    <td><%= item.ai_mks %></td>
+    <td><%= item.ds_mks%></td>
+    <td><%= item.wad_mks%></td>
+
+</tr>
+<% }) %>
+</table>
+<% } %>
